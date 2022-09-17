@@ -7,7 +7,7 @@
 
 2. - [ ] Imprimir no terminal as cores no formato rgba. ex
 `"aliceblue": [240, 248, 255, 1],`
-saida esperada: "`cor` - `rgba(240, 248, 255, 1)`" Entre cada rgba é necessario que haja uma quebra de linha.
+saida esperada: "`aliceblue` - `rgba(240, 248, 255, 1)`" Entre cada rgba é necessario que haja uma quebra de linha.
 
 3. - [ ] Imprimir no terminal, o `Estado`, `sigla` e `cidades`, ex:
 
