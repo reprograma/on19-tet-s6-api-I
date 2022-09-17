@@ -75,3 +75,16 @@ const obj = [
       "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
   }
 ]
+
+
+/*console.log("titulos:"+filmes[0].Title)
+console.log("titulos:"+filmes[1].Title)
+console.log("titulos:"+filmes[2].Title)
+console.log("titulos:"+filmes[3].Title)
+console.log("titulos:"+filmes[4].Title)*/
+const filmes = obj;
+filmes.forEach((filmes) => {
+
+console.log("Titulo dos filmes: " + filmes.Title)
+
+})
