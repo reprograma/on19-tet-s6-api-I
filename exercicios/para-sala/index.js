@@ -14,6 +14,20 @@ const preferencias  = require("./minhas-preferencias.json")
 preferencias.nome
 
 //exemplos errados de propriedade de JSON
+
+// aonde se encontra? [x]
+// como acesso?
+
+// commonJs ESM
+
+// todos de uma vez
+const preferencias = require("./minhas-preferencias.json")
+
+// aqui acessa um atributo pela chave
+preferencias.nome
+
+// exemplos errados de propriedade de JSON
+
 //preferencias.cor-favorita
 //preferencias.cor favorita
 

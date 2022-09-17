@@ -3,15 +3,22 @@
 ## Imprimir informacoes no Terminal
 
 
-Imprimir informacoes no Terminal
-[x] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, contendo a seguinte mensagem: O titulo do filme: titulo. Entre cada titulo é necessario que haja uma quebra de linha
-[x] Imprimir no terminal as cores no formato rgba. ex "aliceblue": [240, 248, 255, 1], saida esperada: "aliceblue - rgba(240, 248, 255, 1)" Entre cada rgba é necessario que haja uma quebra de linha.
-[ ] Imprimir no terminal, o Estado, sigla e cidades, ex:
+1. - [ ] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, contendo a seguinte mensagem: `O titulo do filme: ` titulo. Entre cada titulo é necessario que haja uma quebra de linha
+
+2. - [ ] Imprimir no terminal as cores no formato rgba. ex
+`"aliceblue": [240, 248, 255, 1],`
+saida esperada: "`aliceblue` - `rgba(240, 248, 255, 1)`" Entre cada rgba é necessario que haja uma quebra de linha.
+
+3. - [ ] Imprimir no terminal, o `Estado`, `sigla` e `cidades`, ex:
+
+```
 estado: `estado`,
 sigla: `sigla`,
 cidades:
 rio de janeiro
 sao paulo
+```
+---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
