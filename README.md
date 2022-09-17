@@ -13,13 +13,13 @@ Antes de começar, vamos organizar nosso setup.
 2. Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar
 
 ```
-$ git clone https://github.com/reprograma/on19-tet-s7-api-nodejs.git
+$ git clone https://github.com/reprograma/on19-tet-s6-api-I.git
 ```
 
 3. Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar
 
 ```
-$ cd on19-tet-s7-api-nodejs
+$ cd on19-tet-s6-api-I
 ```
 
 
@@ -148,7 +148,7 @@ Você pode ver o escopo das solicitações HTTP acessando as ferramentas de dese
 
 ![Imagem que mostra requisições ao acessar o site medium](./assets/request-e-response-reprograma.png)
 
- [Vamos ver isso na prática?](https://teste-para-aula-introducao-js.vercel.app/)
+ [Vamos ver isso na prática?](https://medium.com/estudonaweb/entendendo-o-protocolo-http-473753cdfe6b)
  
 
 Aqui você pode visitar a seção Rede(Network) para ver todas as solicitações enviadas quando você insere um nome específico a ser pesquisado. Você pode ver todos os detalhes das solicitações enviadas com código de status, método, nome de domínio, tipo de arquivo, tamanho.

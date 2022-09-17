@@ -3,11 +3,11 @@
 ## Imprimir informacoes no Terminal
 
 
-1. Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, com a seguinte mensagem: titulos:  a lista de titulo, quebrando linha, para a melhor visualização.
+1. - [ ] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, com a seguinte mensagem: titulos:  a lista de titulo, quebrando linha, para a melhor visualização.
 
-2. Imprimir no terminal as cores, quebrando linha, com a seguinte formatacao: ex `rgb(0,0,0)`
+2. - [ ] Imprimir no terminal as cores, quebrando linha, com a seguinte formatacao: ex `rgb(0,0,0)`
 
-3. Imprimir no terminal, o Estado, sigla e cidades, quebrando linha entre eles para a divisao, inclusive de cada cidade.
+3. - [ ] Imprimir no terminal, o Estado, sigla e cidades, quebrando linha entre eles para a divisao, inclusive de cada cidade.
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
