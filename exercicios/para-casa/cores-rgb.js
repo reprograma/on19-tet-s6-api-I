@@ -149,3 +149,10 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+
+obj.forEach((Cores) => {
+
+  console.log(obj)
+
+
+})

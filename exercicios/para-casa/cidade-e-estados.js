@@ -5735,3 +5735,16 @@ const data = [{
   ]
 }
 ]
+
+data.forEach((informacoes) => {
+
+  console.log(informacoes.estados)
+  //console.log(informacoes.estados.sigla)
+
+ })
+
+ const key = "sigla"
+ data[key]
+
+//Imprimir no terminal, o Estado, sigla e cidades
+
