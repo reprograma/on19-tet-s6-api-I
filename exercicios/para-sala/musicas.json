@@ -1,18 +1,15 @@
 [
   {
-    "autor" : "Ludimila",
-    "titulo" : "Café da Manha"
+      "autor" : "Coldplay",
+      "titulo" : "Yellow"
   },
   {
-    "autor" : "Emicida",
-    "titulo" : "Amarelo"
+      "autor" : "Fergie",
+      "titulo" : "Big girls dont cry"
   },
   {
-    "autor" : "Ludimila",
-    "titulo" : "Rainha da Favela"
-  },
-  {
-    "autor" : "Vanessa Rangel",
-    "titulo" : "Palpite"
+      "autor" : "Ludmila",
+      "titulo" : "Rainha da Favela"
   }
+
 ]
