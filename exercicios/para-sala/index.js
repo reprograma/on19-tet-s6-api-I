@@ -4,7 +4,7 @@
 
 // commonJs ESM
 
-<<<<<<< HEAD
+
 const preferencias = require("./minhas-preferencias.json")
 
 //aqui acessa um atributo pela chave
@@ -18,7 +18,7 @@ preferencias.nome
 preferencias["cor_favorita"]
 
 // aqui acessa um atributo pela propriedade
-=======
+
 // todos de uma vez
 const preferencias = require("./minhas-preferencias.json")
 
@@ -33,17 +33,17 @@ preferencias.nome
 preferencias["cor-favorita"]
 
 // aqui acessa um atruto pela propriedade
->>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
+
 preferencias["nome"]
 
 const key = "nome"
 preferencias[key]
 
-<<<<<<< HEAD
+
 console.log("o meu nome é " + preferencias.nome + 
 ", minha cor favorita é " + preferencias.cor_favorita + 
 ", minha musica favorita é " + preferencias.musica_favorita)
-=======
+
 const cor = preferencias.cor_favorita
 
 console.log("O meu nome é " + preferencias.nome 
@@ -119,6 +119,3 @@ for (let serie of series) {
   console.log(serie.personagens.join("\n"))
 }
 
-
-
->>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
