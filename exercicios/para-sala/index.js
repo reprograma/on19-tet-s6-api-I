@@ -17,12 +17,12 @@ preferencias.nome
 // como acessa-los
 preferencias["cor-favorita"]
 
-// aqui acessa um atruto pela propriedade
+// aqui acessa um atributo pela propriedade
 preferencias["nome"]
 
 const key = "nome"
 preferencias[key]
-
+//Object.keys(preferencias) acessa tudo
 const cor = preferencias.cor_favorita
 
 console.log("O meu nome é " + preferencias.nome 
@@ -38,15 +38,20 @@ console.log(`O meu nome é ${preferencias.nome}, minha cor favorita é ${cor}, m
 
 
 
-/**
- * para acessar-mos um array, prescisamos do conchetes[] e indicando o indice
+ /* para acessar-mos um array, prescisamos do conchetes[] e indicando o indice
  
 
 console.log(musicas[0].autor)
 console.log(musicas[1]["autor"])
 console.log(musicas[2].autor)
 
-for  arr.forEach
+// for
+/*for (let i = 0; i < musicas.length; i++) {
+    let autor = musicas[i].autor;
+    console.log(autor)
+}*/
+
+/*for  arr.forEach
 for -> pau para toda obra
 for valor of arr -> percorre CADA item do array e sua variavel é o valor
 for chave/propriedade in arr -> percorre CADA item do array e sua variavel é a chave
@@ -60,16 +65,14 @@ forEach -> percorre um array e seus parametros sao
 */
 const musicas = require("./musicas.json")
 
-musicas.forEach((musica) => {
+// foreach
+/*musicas.forEach((musica) =>{
+    console.log(musica.autor);
+})*/
 
-console.log(musica.autor)
-
-})
-
-
-for (let musica of musicas) {
-
-  console.log(musica.autor)
+//for in
+for (let musica of musicas){
+  console.log(musica.autor);
 }
 
 // imprir o titulo, dublagem e cada personagens
@@ -81,6 +84,7 @@ for (let musica of musicas) {
 
 const series = require("./series-ou-animes.json")
 
+/*
 series.forEach((serie) => {
 
   console.log("Titulo: " + serie.titulo)
@@ -90,6 +94,7 @@ series.forEach((serie) => {
     console.log(personagem)
   }
 })
+*/
 
 for (let serie of series) {
   console.log("Titulo: " + serie.titulo)
