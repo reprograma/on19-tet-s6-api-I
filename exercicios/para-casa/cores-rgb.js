@@ -1,4 +1,4 @@
-const obj = [{
+const color = [{
   "aliceblue": [240, 248, 255, 1],
   "antiquewhite": [250, 235, 215, 1],
   "aqua": [0, 255, 255, 1],
@@ -149,3 +149,17 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//2. - [ ] Imprimir no terminal as cores no formato rgba. ex
+//`"aliceblue": [240, 248, 255, 1],`
+//saida esperada: "`aliceblue` - `rgba(240, 248, 255, 1)`" Entre cada rgba é necessario que haja uma quebra de linha.
+
+let corNomes = Object.keys(color[0])
+let corPosicao = Object.values(color[0])
+
+for (let index = 0; index < corNomes.length; index++) {
+  const novaLista = (`${corNomes[index]} - rgba (${corPosicao[index]})`)
+  console.log(novaLista)
+
+  
+}
