@@ -57,7 +57,7 @@ Meu nome é Beatriz Ramerindo, podem me chamar de Bea, fui da primeira turma do 
 
 > Se possivel e quem se sentir confortável, podem abrir a camera
 
-### Introdução ao HTTP
+## Introdução ao HTTP
 
 O HTTP desempenha um papel crucial no funcionamento da web e na relação cliente-servidor.
 
@@ -68,7 +68,7 @@ HyperText Transfer Protocol(HTTP), como o nome sugere, é um protocolo, um conju
 
 Um exemplo disso é quando fazemos uma pesquisa numa loja, ao pesquisa-mos um produto, o navegador transforma o que o usuario solicita em uma requisição ([REQUEST](#request)) geralmente HTTP ( também conhecida como REST) que é a forma que o servidor que contém esses dados entende, o servidor processa a requisição, busca os recursos em sua base e constroi um resultado ([RESPONSE](#response)) e a devolve para o navegador, com um [status code](#http-status-code) que é responsável por definir se a operação foi um sucesso ou se deu algum tipo de erro e um payload (que são as informações solicitadas). O navegador converte essas informações de forma amigável para o usuário.
 
-### HTTP métodos
+## HTTP métodos
 
 
 Portanto, um cliente faz uma solicitação ao servidor, como o servidor saberia qual operação executar?
@@ -99,7 +99,7 @@ Existem alguns outros também, como HEAD, OPTIONS, TRACE. Vamos entender o que o
  
  Mais informações sobre métodos [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods).
 
-### HTTP Status Code (Código de status)
+## HTTP Status Code (Código de status)
 
 
 >Portanto, um cliente faz uma solicitação ao servidor, como o cliente saberia sobre o status da solicitação?
@@ -138,7 +138,7 @@ O navegador por meio de uma interface visual, processa as informações que o cl
 
 > Como a request é criada pelo navegador depende da ação do cliente.
 
-#### Response
+### Response
 O servidor processa a requisicao, caso não seja possivel processa-la, ele retorna um erro, em caso de sucesso, ele retorna um payload contendo as informações solicitadas ou inseridas.
  
 
@@ -208,7 +208,7 @@ Conteúdo extra - Leitura Complementar:
 * [Ferramentas de desenvolvimento em navegadores](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/ferramentas_de_desenvolvimento_do_navegador)
 
 
-### Json 
+## Json 
 
 JSON (JavaScript Object Notation - Notação de Objetos JavaScript) é uma formatação leve de troca de dados. Para nós é mais tranquilo de compreender de ler e escrever. Para máquinas, é fácil de interpretar e gerar. Está baseado em um subconjunto da linguagem de programação JavaScript. JSON é em formato de texto e completamente independente de linguagem, pois usa convenções que são familiares às linguagens C e familiares, incluindo C++, C#, Java, JavaScript, Perl, Python e muitas outras. Estas propriedades fazem com que JSON seja um formato ideal de troca de dados.
 
@@ -262,7 +262,7 @@ Tanto o JavaScript do navegador quanto o Node.js são executados no mecanismo de
  
 
 
-#### NPM
+### NPM
 
 O npm é o Gerenciador de Pacotes do Node (Node Package Manager) que vem junto com ele e que é muito útil no desenvolvimento Node. Por anos, o Node tem sido amplamente usado por desenvolvedores JavaScript para compartilhar ferramentas, instalar vários módulos e gerenciar suas dependências. Sabendo disso, é realmente importante para pessoas que trabalham com Node.js entendam o que é npm.
 
@@ -278,7 +278,7 @@ O código é compartilhado através do que chamamos de pacote (às vezes chamado
 retirado do site [oficial](https://classic.yarnpkg.com/pt-BR/)
 
 
-#### Package.json
+### Package.json
 
 Package.json é um arquivo descritor de uma aplicação, nele podemos informar nome, descrição, autor, dependências do projeto, dentre outras coisas.
 
