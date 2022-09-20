@@ -5735,3 +5735,9 @@ const data = [{
   ]
 }
 ]
+
+for (let todos of data) {
+  console.log(`Estado: ${todos.nome.join("\n")}`)
+  console.log(`Sigla: ${todos.sigla.join("\n")}`)
+  console.log(`Cidades: ${todos.cidades.join("\n")}`)
+}
