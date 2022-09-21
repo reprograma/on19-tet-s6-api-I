@@ -5735,3 +5735,17 @@ const data = [{
   ]
 }
 ]
+
+for(let key of data) {
+  data.map(function (value) {
+    for (let chave in value) {
+      for (let i =0; i < value[chave].length; i++) {
+        console.log(
+          `estado: ${value[chave][i].nome}\nsigla: ${
+            value[chave][i].sigla
+          }\ncidades:\n${value[chave][i].cidades.join('\n')}`
+        )
+      }
+    }
+  })
+}

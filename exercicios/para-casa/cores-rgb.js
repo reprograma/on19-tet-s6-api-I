@@ -149,3 +149,16 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+
+const newObj = Object.entries(obj[0]).reduce((array, [key, value])=> {
+  return [
+    ...array,
+    {
+      key,
+      value
+    }
+  ]
+}, [])
+
+const coresFormatadas = newObj.map(cor => `${cor.key}-rgba (${cor.value})`)
+coresFormatadas.forEach(cor => console.log(cor.toString()))
