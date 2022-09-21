@@ -75,3 +75,14 @@ const obj = [
       "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
   }
 ]
+/*2. - [ ] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, 
+contendo a seguinte mensagem:
+`O titulo do filme: ` titulo. Entre cada titulo é necessario que haja uma quebra de linha*/
+
+function AcessFilm(tituloDofilme) {
+    console.log(`O título do filme : ${tituloDofilme.Title }`)
+}
+obj.forEach(AcessFilm)
+    
+
+//console.log(`O titulo do filme: ${obj[2].Title}`) testando ...
