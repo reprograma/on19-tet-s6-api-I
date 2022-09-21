@@ -1,0 +1,12 @@
+[
+    {
+        "titulo": "La Casa de Papel",
+        "dublado": false,
+        "personagens": ["Professor", "Tóquio", "Berlim", "Nairóbi", "Rio", "Denver", "Estocolmo"]
+    },
+    {
+        "titulo": "Vis a Vis",
+        "dublado": true,
+        "personagens": ["Macarena", "Zulema", "Saray", "Sole", "Estefanía", "Anabel"]
+    }
+]
