@@ -1,0 +1,13 @@
+[
+    {
+      "título" :"Death note",
+      "dublado" : true,
+      "personagens" : ["L", "Light Yagami", "Ryuk", "Misa Amane"]
+  
+    },
+    {
+      "título" : "Stranger Things",
+      "dublado" : true,
+      "personagens" : ["Eleven", "Joyce", "Dustin"]
+    } 
+  ]
