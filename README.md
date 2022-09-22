@@ -59,7 +59,7 @@ Meu nome é Beatriz Ramerindo, podem me chamar de Bea, fui da primeira turma do 
 
 ### Introdução ao HTTP
 
-O HTTP desempenha um papel crucial no funcionamento da web e na relação cliente-servidor.
+O HTTP desempenha um papel crucial no funcionamento da web e na relação cliente-servidor. 
 
 HyperText Transfer Protocol(HTTP), como o nome sugere, é um protocolo, um conjunto de regras que o servidor precisa seguir para transmitir todos os tipos de arquivos como imagens, texto, áudio, vídeo e outros tipos pela rede mundial de computadores.
 
