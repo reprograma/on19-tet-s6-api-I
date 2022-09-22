@@ -75,3 +75,7 @@ const obj = [
       "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
   }
 ]
+
+console.log("\nA lista de filmes é:")
+    obj.forEach(function(filme){console.log("\n",filme["Title"]);
+});
