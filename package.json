@@ -1,0 +1,23 @@
+{
+  "name": "on19-tet-s6-api-i",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <img src=\"assets/reprograma-fundos-claros.png\" alt=\"logo reprograma\" width=\"500\">\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misshoff/on19-tet-s6-api-I.git"
+  },
+  "author": "Aline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Misshoff/on19-tet-s6-api-I/issues"
+  },
+  "homepage": "https://github.com/Misshoff/on19-tet-s6-api-I#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
