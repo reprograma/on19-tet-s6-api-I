@@ -1,5 +1,4 @@
-const data = [{
-  "estados": [
+[
     {
       "sigla": "AC",
       "nome": "Acre",
@@ -5733,5 +5732,6 @@ const data = [{
       ]
     }
   ]
-}
-]
+
+
+
