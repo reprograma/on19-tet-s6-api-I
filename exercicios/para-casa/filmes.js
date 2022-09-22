@@ -75,3 +75,9 @@ const obj = [
       "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
   }
 ]
+console.log("TÍTULOS DOS FILMES\n")
+for (let i = 0; i <obj.length; i++){ 
+    let oFilme = obj[i]
+    console.log(oFilme.Title)
+    console.log("\n")
+}
