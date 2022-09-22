@@ -5735,3 +5735,14 @@ const data = [{
   ]
 }
 ]
+console.log("\nA lista de estados é:")
+
+data.forEach((item) => {Object.keys(item.estados).map((propriedade) => {
+    console.log(propriedade,' - ',item["estados"])
+  })  
+})
+
+var dados2 = data.map(function(item){
+  return item.estados;
+});
+  console.log(dados2)
