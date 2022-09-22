@@ -5735,3 +5735,11 @@ const data = [{
   ]
 }
 ]
+let objetoEstado = Object.values(data[0].estados) 
+
+objetoEstado.forEach((data) => {
+
+  console.log("\nEstado: " + data.nome)
+  console.log("Sigla: " + data.sigla)
+  console.log("Cidade: \n" + data.cidades.join("\n"))
+})
