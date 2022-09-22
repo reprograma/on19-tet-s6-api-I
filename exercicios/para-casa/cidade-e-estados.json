@@ -1,4 +1,4 @@
-const data = [{
+[{
   "estados": [
     {
       "sigla": "AC",
@@ -5736,14 +5736,4 @@ const data = [{
 }
 ]
 
-data.forEach((informacoes) => {
-
-  console.log(informacoes.estados)
- 
-
- })
-
-
-
-//Imprimir no terminal, o Estado, sigla e cidades
 
