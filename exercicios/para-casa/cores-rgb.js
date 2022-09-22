@@ -149,3 +149,12 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+
+let objetoNome = Object.keys(obj[0])
+let objetoNumero = Object.values(obj[0])
+
+  for (let index = 0; index < objetoNome.length; index++) {
+    const listaCores = (`${objetoNome[index]} - rgba ${objetoNumero[index]}`)
+    console.log(listaCores)
+    
+  }
