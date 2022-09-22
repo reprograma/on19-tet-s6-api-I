@@ -149,3 +149,13 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+ 
+const cor = () => { 
+
+for (const [key, value] of Object.entries(obj[0])) {
+  console.log(`\n${key} - (${value})`);
+}}
+
+module.exports = {
+  cor
+}

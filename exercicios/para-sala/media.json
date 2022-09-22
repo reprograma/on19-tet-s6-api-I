@@ -1,0 +1,17 @@
+[
+    {
+        "title" : "Funeral Parade of Roses",
+        "movie" : true,
+        "genres" : ["experimental", "documentary", "LGBT"]  
+    },
+    {
+        "title" : "Madoka Magica",
+        "movie" : false,
+        "genres" : ["magical girl", "LGBT"]
+    },
+    {
+        "title" : "Noroi",
+        "movie" : true,
+        "genres" : ["found footage", "horror"]
+    }
+]
