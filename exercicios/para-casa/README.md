@@ -3,11 +3,29 @@
 ## Imprimir informacoes no Terminal
 
 
+<<<<<<< HEAD
 1. - [X] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, com a seguinte mensagem: titulos:  a lista de titulo, quebrando linha, para a melhor visualização.
+=======
+1. - [ ] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, contendo a seguinte mensagem: `O titulo do filme: ` titulo. Entre cada titulo é necessario que haja uma quebra de linha
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 
-2. - [ ] Imprimir no terminal as cores, quebrando linha, com a seguinte formatacao: ex `rgb(0,0,0)`
+2. - [ ] Imprimir no terminal as cores no formato rgba. ex
+`"aliceblue": [240, 248, 255, 1],`
+saida esperada: "`aliceblue` - `rgba(240, 248, 255, 1)`" Entre cada rgba é necessario que haja uma quebra de linha.
 
+<<<<<<< HEAD
 3. - [X] Imprimir no terminal, o Estado, sigla e cidades, quebrando linha entre eles para a divisao, inclusive de cada cidade.
+=======
+3. - [ ] Imprimir no terminal, o `Estado`, `sigla` e `cidades`, ex:
+
+```
+estado: `estado`,
+sigla: `sigla`,
+cidades:
+rio de janeiro
+sao paulo
+```
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
     "nome" : "Beatriz",
     "cor_favorita" : "Amarelo",
     "musica_favorita" : "Vida Loka 2"
 } 
+=======
+  "nome" : "Beatriz", 
+  "cor_favorita" : "Amarelo",
+  "musica_favorita" : "Racionais MCs Vida Loka PT2"
+}
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1

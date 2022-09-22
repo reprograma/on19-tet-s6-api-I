@@ -1,12 +1,19 @@
 # Exercício de Sala 🏫  
 
+<<<<<<< HEAD
 1. [X] Criar um JSON que contenha a sua cor favorita, sua musica favorita e o seu nome de preferencia.
 2. [X] Criar um JSON que contenha uma lista das minhas músicas favoritas com o titulo e autor.
+=======
+1. [x] Criar um JSON que contenha a sua cor favorita, sua musica favorita e o seu nome de preferencia.
+2. [x] Criar um JSON que contenha uma lista das minhas músicas favoritas com o titulo e autor.
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 3. [ ] Criar um JSON que contenha uma lista de séries e/ou anime e seus principais atores
 
 4. [ ] Imprimir no terminal o item 1, com a seguinte mensagem: O meu nome é ..., a minha cor favorita é ...., a minha musica favorita é ... . 
 
 5. [ ] Imprimir no terminal Os meus atores favoritos do item 2.
+
+6. [ ] imprimir o titulo, dulblado e personagens
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

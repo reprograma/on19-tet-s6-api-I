@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "autor" : "Ludimila",
         "titulo" : "Café da Manha"
@@ -11,4 +12,22 @@
         "autor" : "Ludimila",
         "titulo" : "Rainha da Favela"
     }
+=======
+  {
+    "autor" : "Ludimila",
+    "titulo" : "Café da Manha"
+  },
+  {
+    "autor" : "Emicida",
+    "titulo" : "Amarelo"
+  },
+  {
+    "autor" : "Ludimila",
+    "titulo" : "Rainha da Favela"
+  },
+  {
+    "autor" : "Vanessa Rangel",
+    "titulo" : "Palpite"
+  }
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 ]
