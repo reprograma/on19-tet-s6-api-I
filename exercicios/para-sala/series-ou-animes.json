@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "titulo" : "One piece",
         "dublado" : false,
@@ -9,4 +10,16 @@
         "dublado" : true,
         "personagens" : ["Derek", "Grey", "Lex", "Cristina", "Yang", "Maggie"]
     }
+=======
+  {
+    "titulo" : "One Piece",
+    "dublado" : false,
+    "personagens" : ["Nami", "Luffy", "Zoro", "Usopp"]
+  },
+  {
+    "titulo" : "Greys Anatomy",
+    "dublado" : true,
+    "personagens" : ["Deric", "Grey", "Lexy", "Daile", "Cristina", "Omale", "Maggie", "Richard"]
+  }
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 ]
