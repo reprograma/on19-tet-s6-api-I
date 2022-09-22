@@ -1,12 +1,12 @@
 [
-  {
-    "titulo" : "One Piece",
-    "dublado" : false,
-    "personagens" : ["Nami", "Luffy", "Zoro", "Usopp"]
-  },
-  {
-    "titulo" : "Greys Anatomy",
-    "dublado" : true,
-    "personagens" : ["Deric", "Grey", "Lexy", "Daile", "Cristina", "Omale", "Maggie", "Richard"]
-  }
+    {
+      "titulo" : "One Piece",
+      "dublado" : false,
+      "personagens" : ["Nami", "Luffy", "Zoro", "Usopp"]
+    },
+    {
+        "titulo" : "Greys Anatomy",
+        "dublado" : false,
+        "personagens" : ["Bayley", "Cristina", "Mark", "Avery", "Weber", "Grey", "Lexy", "George"]    
+    }
 ]

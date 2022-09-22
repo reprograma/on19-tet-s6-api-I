@@ -1,5 +1,4 @@
-const obj = [
-  {
+[{
       "Title":"10 Things I Hate About You",
       "Year":"1999",
       "Rated":"PG-13",
@@ -75,10 +74,3 @@ const obj = [
       "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
   }
 ]
-
-obj.forEach((Filmes) => {
-
-    console.log("O titulo do filme: " + Filmes.Title)
-
-
-})

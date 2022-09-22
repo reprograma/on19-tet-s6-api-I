@@ -1,4 +1,27 @@
 [
+<<<<<<< HEAD
+    {
+        "autor" : "Djavan",
+        "Titulo" : "Azul"
+    },
+    {
+        "autor" : "Djavan",
+        "Titulo" : "Boa noite"   
+    },
+    {
+        "autor" : "Jorge Vercillo",
+        "Titulo" :  "Monalisa"      
+    },
+    {
+        "autor" : "Jorge Vercillo",
+        "Titulo" :  "Arco Iris"      
+    },
+    {
+        "autor" : "Queen",
+        "Titulo" : "Bohemiah Rapysodian"       
+    }
+ ]
+=======
   {
     "autor" : "Ludimila",
     "titulo" : "Café da Manha"
@@ -16,3 +39,4 @@
     "titulo" : "Palpite"
   }
 ]
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
