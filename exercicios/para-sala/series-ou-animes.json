@@ -1,4 +1,16 @@
 [
+<<<<<<< HEAD
+    {
+        "titulo" : "One Piece",
+        "dublado" : false,
+        "personagens" : ["Nami", "Luffy", "Zoro", "Usopp"]
+    },
+    {
+        "titulo" : "",
+        "dublado" : false,
+        "personagens" : ["X", "y", "Z", "U"]
+    }
+=======
   {
     "titulo" : "One Piece",
     "dublado" : false,
@@ -9,4 +21,5 @@
     "dublado" : true,
     "personagens" : ["Deric", "Grey", "Lexy", "Daile", "Cristina", "Omale", "Maggie", "Richard"]
   }
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 ]

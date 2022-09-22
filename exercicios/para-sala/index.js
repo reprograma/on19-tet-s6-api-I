@@ -1,4 +1,19 @@
 // acessar o objeto
+<<<<<<< HEAD
+// onde se encontra?
+// como acesso?
+
+//CommonJs  ESM
+
+const preferencias = require("./minhas-preferencias.json")
+
+preferencias.nome 
+
+preferencias["nome"]
+
+const key = "nome"
+preferencias [key]
+=======
 // aonde se encontra? [x]
 // como acesso?
 
@@ -99,4 +114,5 @@ for (let serie of series) {
 }
 
 
+>>>>>>> 3a4d7817be1a9cd5eeccd95e0b9e7328a9df9cb1
 
