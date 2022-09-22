@@ -1,12 +1,12 @@
 [
   {
-    "titulo" : "One Piece",
+    "titulo" : "Death Note",
     "dublado" : false,
-    "personagens" : ["Nami", "Luffy", "Zoro", "Usopp"]
+    "personagens" : ["Light Yagami", "L", "Misa Amane", "Ryuk"]
   },
   {
-    "titulo" : "Greys Anatomy",
+    "titulo" : "Manifest: O mistério do voo 828",
     "dublado" : true,
-    "personagens" : ["Deric", "Grey", "Lexy", "Daile", "Cristina", "Omale", "Maggie", "Richard"]
+    "personagens" : ["Michaela Stone", "Ben Stone", "Grace Stone", "Olive Stone", "Cal Stone", "Danny", "Jared", "Bethany Collins"]
   }
 ]
