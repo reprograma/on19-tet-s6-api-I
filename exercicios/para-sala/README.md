@@ -7,6 +7,8 @@
 4. [ ] Imprimir no terminal o item 1, com a seguinte mensagem: O meu nome é ..., a minha cor favorita é ...., a minha musica favorita é ... . 
 
 5. [ ] Imprimir no terminal Os meus atores favoritos do item 2.
+
+6. [ ] Imprimir o titulo, dublado e personagens
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
