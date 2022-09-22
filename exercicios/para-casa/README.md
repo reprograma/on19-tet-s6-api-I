@@ -2,7 +2,7 @@
 
 ## Imprimir informacoes no Terminal
 
-1. - [ ] Imprimir no terminal os titulos da lista de filmes que está no arquivo filmes.js, contendo a seguinte mensagem: `O titulo do filme é: ` titulos. Entre cada titulo, é necessário que haja uma quebra de linha para a melhor visualização.
+1. - [X] Imprimir no terminal os titulos da lista de filmes que está no arquivo filmes.js, contendo a seguinte mensagem: `O titulo do filme é: ` titulos. Entre cada titulo, é necessário que haja uma quebra de linha para a melhor visualização.
 
 2. - [ ] Imprimir no terminal as cores, quebrando linha, no formato rgba. Ex: `"aliceblue": [240, 248, 255,1]` saida esperada: `aliceblue` - `rgba(240, 248, 255, 1) ` Entre cada rgba é necessário que haja uma quebra de linha.
 
