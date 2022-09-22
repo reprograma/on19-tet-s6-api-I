@@ -1,0 +1,11 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "1. - [ ] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, com a seguinte mensagem: titulos:  a lista de titulo, quebrando linha, para a melhor visualização.",
+  "main": "cidade-e-estados.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
