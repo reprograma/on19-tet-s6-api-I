@@ -149,3 +149,9 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+let colors = Object.keys(obj[0])
+let valurs = Object.values(obj[0]);
+for (let index = 0; index < colors.length; index++){
+  const listacores = (`${colors[index]} : rgb ${valurs[index]}`)
+  console.log(listacores)
+}

@@ -1,0 +1,13 @@
+[
+{
+    "titulo": "Naruto",
+    "dublado": "false",
+    "atores": ["sasuke", " deidara", "madara", " obito", "kurama"]
+},
+{
+    "titulo": "glee",
+    "dublado": "true",
+    "atores": ["rachel", "santana", "finn", "mercedes", "quinn", "Sam evans"]
+
+}
+]

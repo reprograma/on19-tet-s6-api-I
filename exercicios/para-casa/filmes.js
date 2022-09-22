@@ -74,4 +74,7 @@ const obj = [
       "Country":"USA",
       "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
   }
-]
+] 
+obj.forEach((titulo) =>{
+    console.log("A lista de titulos são: " + titulo.Title)
+})
