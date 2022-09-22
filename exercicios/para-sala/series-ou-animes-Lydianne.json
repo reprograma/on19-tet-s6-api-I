@@ -1,0 +1,12 @@
+[
+    {
+        "titulo": "Sakura Card Captors",
+    "dublado": true,
+    "personagens": [ "Sakura", "Tomoyo", "Syaoran Li", "Yukito"]
+    },
+    {
+        "titulo": "Lie To Me",
+        "dublado": false,
+        "personagens": [ "Dr. Cal Lightman", "Gillian Foster", "Monica", "Eli Loker"]
+    }
+]
