@@ -149,3 +149,9 @@ const obj = [{
   "yellowgreen": [154, 205, 50, 1],
   "rebeccapurple": [102, 51, 153, 1]
 }]
+
+for (let cor in obj) {
+  for (let nome in obj[cor]) {
+    console.log(`${nome} - rgba(${obj[cor][nome]})\n`);
+  }
+}
