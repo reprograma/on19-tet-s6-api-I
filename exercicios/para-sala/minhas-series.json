@@ -1,0 +1,13 @@
+[
+  { "titulo" : "Os anéis do poder",
+     "dublado" : false,
+     " personagens " : ["Galadriel,Isildor,Nori"]
+  },
+
+  { "titulo" : "Game of Thrones",
+  "dublado" :true,
+  " personagens " : ["Jon Snow,Sansa,Adria"]
+}
+]
+
+
