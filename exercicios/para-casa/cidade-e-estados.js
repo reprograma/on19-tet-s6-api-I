@@ -5735,3 +5735,11 @@ const data = [{
   ]
 }
 ]
+
+const estados = require("./cidade-e-estados.js")
+
+estados.forEach(index =>
+  {
+ console.log("\n" + index.nome + " " +index.sigla + "\n\n" + 
+ index.cidades.join("\n"))
+})
