@@ -2,7 +2,7 @@
 
 1. [x] Criar um JSON que contenha a sua cor favorita, sua musica favorita e o seu nome de preferencia.
 2. [x] Criar um JSON que contenha uma lista das minhas músicas favoritas com o titulo e autor.
-3. [ ] Criar um JSON que contenha uma lista de séries e/ou anime e seus principais atores
+3. [x] Criar um JSON que contenha uma lista de séries e/ou anime e seus principais atores
 
 4. [ ] Imprimir no terminal o item 1, com a seguinte mensagem: O meu nome é ..., a minha cor favorita é ...., a minha musica favorita é ... . 
 
