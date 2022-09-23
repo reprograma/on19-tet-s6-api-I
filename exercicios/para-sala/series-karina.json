@@ -1,0 +1,12 @@
+[
+    {
+    "serie" : "Grey's Anatomy",
+    "dublado" : true,
+    "personagens" : ["Deric", "Grey", "Lexy", "Daile", "Cristina", "Omale", "Maggie", "Richard"]
+    },
+{
+    "serie" : "Sandman",
+    "dublado" : true,
+    "personagens" : ["Morpheus", "Morte", "Destino", "Destruição", "Desejo", "Desespero", "Delírio"]
+}
+]

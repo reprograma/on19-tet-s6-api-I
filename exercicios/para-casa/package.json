@@ -1,0 +1,11 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "1. - [ ] Imprimir no terminal os titulos da lista de filme que está no arquivo filmes.js, contendo a seguinte mensagem: `O titulo do filme: ` titulo. Entre cada titulo é necessario que haja uma quebra de linha",
+  "main": "index.js",
+  "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+          },
+  "author": "",
+  "license": "ISC"
+}
