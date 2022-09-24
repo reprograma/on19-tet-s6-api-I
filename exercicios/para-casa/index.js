@@ -12,18 +12,13 @@ console.log(`___________________________________________________`)
     
 //exercício 2
 
-console.log("Exercício 2 ainda não concluído")
-const cores = require("./cores-rgb.json")
-cores.keys
+console.log("Exercício 2")
 
-const key = "keys"
-cores [key]
+let cores = require("./cores-rgb.json");
 
 
-for (let index = 0; index < cores.length; index++) {
-	const element = cores[index];
-    console.log(`Cor: ${Object.keys(element)}`)
-}
+for(let [cor, rgb] of Object.entries(cores[0]))
+console.log(`${cor} - rgb(${rgb.join(" , ")})`)
 
 console.log(`______________________________________________________`)
 
@@ -31,5 +26,11 @@ console.log(`______________________________________________________`)
 
 console.log("Exercício 3 ainda não concluído")
 
-const data = require("./cidade-e-estados.json")
+const estados = require("./cidade-e-estados.json")[0].estados
+
+estados.forEach((estado) => {
+    console.log("\nSigla : " + estado.sigla)
+    console.log("\nNome : " + estado.nome)
+    console.log(estado.cidades.join("\n"))
+})
 
