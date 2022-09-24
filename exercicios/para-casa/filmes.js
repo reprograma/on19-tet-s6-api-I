@@ -3,6 +3,6 @@
 const obj = require("./filmes.json")
 
 for (let titulo of obj) { //uso o for of para chamar a lista de objetos que chamei de obj
-    console.log(`\nO título do filme é: ${titulo.Title}\n`) //depois cria um parâmetro qualquer, que chamei de titulo aqui e vou colocar .Title que é a propriedade
+    console.log(`O título do filme é: ${titulo.Title}`) //depois cria um parâmetro qualquer, que chamei de titulo aqui e vou colocar .Title que é a propriedade
 }
 

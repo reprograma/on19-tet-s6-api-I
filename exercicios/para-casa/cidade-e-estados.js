@@ -7,7 +7,11 @@
 
 const brasil = require("./cidade-e-estados.json")
 
-brasil.forEach((tudo) => {
-    console.log(Object.values(tudo))
-})
+let estados = brasil[0].estados
 
+estados.forEach((estadoCidades) => {
+
+    console.log(`\nEstado: ${estadoCidades.nome}\n`);
+    console.log(`Sigla: ${estadoCidades.sigla}\n`);
+    console.log(`Cidades: \n${estadoCidades.cidades.join("\n")}`)
+})
