@@ -1,102 +1,80 @@
 // acessar o objeto
-// aonde se encontra? [x]
+// aonde se encontra
 // como acesso?
 
-// commonJs ESM
+//commonJs ESM
 
-// todos de uma vez
 const preferencias = require("./minhas-preferencias.json")
 
 // aqui acessa um atributo pela chave
-preferencias.nome
+preferencias.nome 
 
-// exemplos errados de propriedade de JSON
-//preferencias.cor-favorita
-//preferencias.cor favorita
-
-// como acessa-los
-preferencias["cor-favorita"]
-
-// aqui acessa um atruto pela propriedade
-preferencias["nome"]
-
+// aqui acessa um atributo pela propriedade
+preferencias["nome"] 
 const key = "nome"
 preferencias[key]
 
-const cor = preferencias.cor_favorita
+console.log(`O meu nome é ${preferencias.nome}, minha cor favorita é ${preferencias.cor_favorita}, minha música favorita é ${preferencias.musica_favorita}`)
 
-console.log("O meu nome é " + preferencias.nome 
-+ ", minha cor favorita é " + preferencias.cor_favorita 
-+ ", minha musica favorita é " + preferencias.musica_favorita)
+//Imprimir no terminal Os meus atores favoritos do item 2
+// temos uma lista de objetos 
+// desses objetos, vamos imprimir apenas o autor
 
-console.log(`O meu nome é ${preferencias.nome}, minha cor favorita é ${cor}, minha musica favorita é ${preferencias.musica_favorita}`)
-
-
-// para imprimir no terminal os autores do item 2
-// temos uma lista objeto de objeto
-// desse objeto imprir o autor
-
-
-
-/**
- * para acessar-mos um array, prescisamos do conchetes[] e indicando o indice
- 
-
-console.log(musicas[0].autor)
-console.log(musicas[1]["autor"])
-console.log(musicas[2].autor)
-
-for  arr.forEach
-for -> pau para toda obra
-for valor of arr -> percorre CADA item do array e sua variavel é o valor
-for chave/propriedade in arr -> percorre CADA item do array e sua variavel é a chave
-ambos os for podem ser interrompidos
-
-forEach -> percorre um array e seus parametros sao 
- 1. o valor
- 2. indice
- 3. arr
-
-*/
 const musicas = require("./musicas.json")
 
+/** para acessarmos um array, precisamos dos conchetes[] e indicando o indice
+console.log(musicas[0].autor)
+console.log(musicas[1].autor)
+console.log(musicas[2].autor)
+ */
+
+  /**
+for -> pau para toda obra
+ for of -> percorre um array e sua variável é o valor (exemplo: for valor of array)
+ for in -> percorre uma array e sua variável é a chave (exemplo: for chave/propriedade in array)
+ ambos os for podem ser interrompidos a qualquer momento
+
+ forEach -> percorre um array e seus parâmetros são:
+ 1. valor
+ 2. indice
+ 3. array
+ O forEach não é possível interromper 
+ */
+
+/**
+// Podemos acessar também utilizando o forEach
 musicas.forEach((musica) => {
-
-console.log(musica.autor)
-
+    console.log(musica.autor)
 })
+ */
 
-
+// Podemos acessar também utilizando o for of (exemplo: for valor of array)
 for (let musica of musicas) {
-
-  console.log(musica.autor)
+    console.log(musica.autor)
 }
 
-// imprir o titulo, dublagem e cada personagens
-
-// percorrer a lista de serie
-// imprime o titulo e dublagem
+//imprimir o titulo, dublagem e cada personagem
+//percorrer a lista de serie
+//imprimir o titulo e dublagem
 // percorrer a lista de personagens
-// imprime cada um dos personagens
+// imprimir cada um dos personagens
 
 const series = require("./series-ou-animes.json")
 
+//Forma 1 de fazer isso:
 series.forEach((serie) => {
+    console.log(`Titulo: ${serie.titulo}`)
+    console.log(`Dublagem: ${serie.dublado}`)
 
-  console.log("Titulo: " + serie.titulo)
-  console.log("Dublado: "+ serie.dublado)
-
-  for (let personagem of serie.personagens) {
-    console.log(personagem)
-  }
+    for (let personagem of serie.personagens) {
+        console.log(`Personagem: ${personagem}`)
+    }
 })
 
+//Forma 2 de fazer isso:
 for (let serie of series) {
-  console.log("Titulo: " + serie.titulo)
-  console.log("Dublado: "+ serie.dublado)
+    console.log(`Titulo: ${serie.titulo}`)
+    console.log(`Dublagem: ${serie.dublado}`)
 
-  console.log(serie.personagens.join("\n"))
+    console.log(`Personagens: ${serie.personagens.join("\n")}`)
 }
-
-
-

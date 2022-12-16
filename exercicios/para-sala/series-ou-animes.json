@@ -1,12 +1,11 @@
-[
-  {
+[{
     "titulo" : "One Piece",
     "dublado" : false,
     "personagens" : ["Nami", "Luffy", "Zoro", "Usopp"]
-  },
-  {
-    "titulo" : "Greys Anatomy",
+},
+{
+    "titulo" : "Grets Anatomy",
     "dublado" : true,
-    "personagens" : ["Deric", "Grey", "Lexy", "Daile", "Cristina", "Omale", "Maggie", "Richard"]
-  }
+    "personagens" : ["Derik", "Meridith", "Lexy", "Baile", "Cristina", "Omale", "Maggie", "Richard"]
+}
 ]
