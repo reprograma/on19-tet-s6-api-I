@@ -5735,3 +5735,19 @@ const data = [{
   ]
 }
 ]
+
+//3. - [ ] Imprimir no terminal, o `Estado`, `sigla` e `cidades`
+const acessoAoObjeto = data[0].estados;
+
+const exercicio = acessoAoObjeto.forEach(cidades => {
+console.log(cidades.cidades)  
+});
+
+const estados = acessoAoObjeto.forEach(estado => {
+  console.log(estado.nome)  
+  });
+
+  const siglas = acessoAoObjeto.forEach(sigla => {
+    console.log(sigla.sigla)  
+    });
+
