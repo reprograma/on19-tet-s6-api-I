@@ -150,3 +150,9 @@ const obj = [{
   "rebeccapurple": [102, 51, 153, 1]
 }]
 
+let cores = obj[0] 
+let value = Object.values(cores)
+let key = Object.keys(cores)
+
+for(let i=0; i < key.length; i++){
+    console.log(`${key[i]}\n`)}
